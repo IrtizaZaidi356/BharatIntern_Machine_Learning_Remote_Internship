@@ -49,17 +49,17 @@
 #### 2) **Understanding Objectives:**
   - The project aims to achieve the following objectives:
 
-  i) **Exploratory Data Analysis (EDA):** Understand the structure and characteristics of the iris flowers dataset. Utilize various visualizations, such as bar charts, box plots, pair plots, correlation matrices, histograms, scatter plots, pie charts, bubble charts, and area plots, to gain insights into the data distribution and relationships.
+  - i) **Exploratory Data Analysis (EDA):** Understand the structure and characteristics of the iris flowers dataset. Utilize various visualizations, such as bar charts, box plots, pair plots, correlation matrices, histograms, scatter plots, pie charts, bubble charts, and area plots, to gain insights into the data distribution and relationships.
 
-  ii) **Data Pre-processing and Feature Engineering:** Handle any missing values, clean the data, and perform feature engineering if necessary. Standardize the data using the Standard Scaler to ensure consistent scales for the features.
+  - ii) **Data Pre-processing and Feature Engineering:** Handle any missing values, clean the data, and perform feature engineering if necessary. Standardize the data using the Standard Scaler to ensure consistent scales for the features.
 
-  iii) **Handling Outliers:** Use the Interquartile Range (IQR) method to identify and remove outliers from the dataset, ensuring a cleaner and more reliable input for model training.
+  - iii) **Handling Outliers:** Use the Interquartile Range (IQR) method to identify and remove outliers from the dataset, ensuring a cleaner and more reliable input for model training.
 
-  iv) **Random Forest Classifier:** Implement a Random Forest Classifier using scikit-learn. Train the model on the pre-processed dataset, evaluate its accuracy, and provide a comprehensive classification report and confusion matrix.
+  - iv) **Random Forest Classifier:** Implement a Random Forest Classifier using scikit-learn. Train the model on the pre-processed dataset, evaluate its accuracy, and provide a comprehensive classification report and confusion matrix.
 
-  v) **Neural Network with TensorFlow/Keras:** Build a neural network using TensorFlow and Keras. Train the model on the standardized dataset, evaluate its performance, and compare the results with the Random Forest Classifier.
+  - v) **Neural Network with TensorFlow/Keras:** Build a neural network using TensorFlow and Keras. Train the model on the standardized dataset, evaluate its performance, and compare the results with the Random Forest Classifier.
 
-  vi) **Streamlit Application:** Develop a user-friendly Streamlit application that allows users to input values for sepal length, sepal width, petal length, and petal width. Display the predictions from both the Random Forest Classifier and Neural Network, offering an interactive and informative interface.
+  - vi) **Streamlit Application:** Develop a user-friendly Streamlit application that allows users to input values for sepal length, sepal width, petal length, and petal width. Display the predictions from both the Random Forest Classifier and Neural Network, offering an interactive and informative interface.
 
 #### 3) **Methodologies:**
   - The project employs a systematic approach, beginning with data exploration and visualization to gain a deep understanding of the dataset. Data preprocessing involves handling missing values, cleaning the data, and applying feature engineering techniques. The use of the IQR method ensures the removal of outliers, enhancing the model's robustness.
