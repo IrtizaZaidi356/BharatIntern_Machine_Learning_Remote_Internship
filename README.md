@@ -1,6 +1,6 @@
-# Machine Learning | Remote Internship | Bharat Intern
+# **Machine Learning | Remote Internship | Bharat Intern**
 
-## Perfom to Task No# 01: House Price Prediction | Machine Learning:
+## **Perfom to Task No# 01: House Price Prediction | Machine Learning:**
   - Develop a machine learning model for predicting house prices using Python, scikit-learn, and TensorFlow.
     
 ---
@@ -36,7 +36,7 @@
 
 ---
 
-## **Perform Task No# 02: Movie Recommendations | Machine Learning:
+## **Perform Task No# 02: Movie Recommendations | Machine Learning:**
   - Build a Movie Recommendation System using collaborative filtering and machine learning techniques in Python
 
 ---
