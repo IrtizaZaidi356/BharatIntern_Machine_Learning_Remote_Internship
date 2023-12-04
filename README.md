@@ -36,6 +36,34 @@
 
 ---
 
+## **Perform Task No# 02: Movie Recommendations | Machine Learning:
+  - Build a Movie Recommendation System using collaborative filtering and machine learning techniques in Python
+
+---
+
+### **Project No# 02: Movie Recommendation System:**
+
+ #### **Introduction:**
+  - The objective of Project No# 02 was to build a Movie Recommendation System using collaborative filtering and machine learning techniques in Python. The project aimed to create a system that could analyze user preferences and provide personalized movie recommendations. The dataset consisted of two main CSV files: 'Netflix_Movie.csv' containing information about movies, and 'Netflix_Rating.csv' with user ratings for those movies.
+
+ #### **Understanding Objectives:**
+   1) **Data Loading and Cleaning:** The project began with importing necessary libraries and loading the movie and rating datasets. The datasets were merged based on the 'Movie_ID' column, resulting in a comprehensive dataset containing both movie information and user ratings.
+   2) **Exploratory Data Analysis (EDA):** The EDA phase involved a thorough exploration of the dataset. Descriptive statistics were used to understand the central tendencies of the data, and various visualizations were employed to analyze the distribution of ratings across users, movie ratings over the years, and rating spreads for each movie. The EDA phase aimed to uncover patterns and insights within the dataset.
+   3) **Handling Data Quality Issues:** The dataset was checked for missing values and duplicates. Missing values were visualized using a heatmap, and duplicates were removed to ensure data integrity.
+   4) **Handling Outliers:** Outliers in the rating distribution were identified using boxplots, and appropriate techniques were applied to handle these outliers.
+   5) **Data Preprocessing:** The dataset was split into training and testing sets. Standardization was performed using the StandardScaler from scikit-learn to ensure uniformity in the data.
+   6) **Machine Learning Model (Random Forest):** A Random Forest Regressor was implemented for the machine learning aspect of the project. The model was trained on features such as 'Movie_ID,' 'Year,' and 'User_ID,' and predictions were made for the testing set. Mean Squared Error (MSE) was used as an evaluation metric.
+   7) **Neural Network Model (TensorFlow/Keras):** A neural network was implemented using TensorFlow and Keras for a more complex recommendation system. The model architecture included embedding layers for categorical variables, a flattening layer, and dense layers. The model was trained and validated using the training set.
+   8) **User Input for Recommendations:** A user-friendly interface was created to allow users to input a Movie ID and receive a predicted rating from the neural network model.
+ 
+ #### **Methodologies and Outcomes:**
+  - The project utilized a combination of exploratory data analysis, machine learning techniques (Random Forest), and neural networks to build a movie recommendation system. Visualizations provided insights into the distribution of ratings, trends over the years, and user preferences. The machine learning model (Random Forest) demonstrated its capability to predict ratings, while the neural network model added complexity for more sophisticated recommendations.
+
+#### **Conclusion:**
+  - Project No# 02 successfully achieved its objectives by creating a movie recommendation system that leverages collaborative filtering and machine learning. The project demonstrated the importance of data exploration, cleaning, and the application of diverse models to cater to different complexities. The user input feature allows for practical interaction with the recommendation system. This project serves as a foundation for further enhancements and optimizations in the field of recommendation systems, contributing to a more personalized and engaging user experience in the realm of movie recommendations.
+
+---
+
 ## Perfom to Task No# 03:IRIS Flowers Classification | Machine Learning:
   - Develop a Machine Learning Model for classifying iris flowers based on their features using Python, scikit-learn, and TensorFlow.
 
